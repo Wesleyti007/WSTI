@@ -1,26 +1,50 @@
-
 body {
     font:20px arial, sans-serif
 }
-.navbar {
-    background-color: #D3D3D3;
-    color: black;
-    padding: 30px;
+
+p, li {
+  color: #444;
+  font-size: 14px;
 }
 
-#empresa {
-  background-color: teal;
-  color: white;
+p {
+  text-align: left;
+}
+
+.navbar {
+ background-color: #D3D3D3;
+ color: black;
+ padding: 30px;
 }
 
 .margin {
-    padding-bottom: 2px;
-    padding-top: 2px;
+  padding-bottom: 2px;
+  padding-top: 2px;
 }
 
 .bg-footer {
-    background-color: #235659;
-    color: white;
+  background-color: #235659;
+  color: white;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+.servico {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.titulo {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
 }
 
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
@@ -44,28 +68,9 @@ body {
   color: #FFF;
 }
 
-p, li {
-  color: #444;
-  font-size: 14px;
-}
-
-p {
-  text-align: left;
-}
-
-.row {
-  margin: 0;
-}
-
-.container {
-  padding: 70px 0;
-}
-
-.main-title {
-  color: #444;
-  margin: 0 0 65px 0;
-  font-size: 40px;
-  text-align: center;
+#empresa {
+  background-color: teal;
+  color: white;
 }
 
 #logo {
@@ -73,8 +78,7 @@ p {
   height: 75px;
 }
 
-.service-box {
-  text-align: center;
-  margin-bottom: 50px;
+#contato {
+  background-color: teal;
+  color: white;
 }
-

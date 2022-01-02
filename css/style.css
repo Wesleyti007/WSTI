@@ -1,0 +1,80 @@
+
+body {
+    font:20px arial, sans-serif
+}
+.navbar {
+    background-color: #D3D3D3;
+    color: black;
+    padding: 30px;
+}
+
+#empresa {
+  background-color: teal;
+  color: white;
+}
+
+.margin {
+    padding-bottom: 2px;
+    padding-top: 2px;
+}
+
+.bg-footer {
+    background-color: #235659;
+    color: white;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+  height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+  top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+#mainSlider .carousel-caption p {
+  font-size: 22px;
+  font-weight: 300;
+  margin-bottom: 100px;
+  color: #FFF;
+}
+
+p, li {
+  color: #444;
+  font-size: 14px;
+}
+
+p {
+  text-align: left;
+}
+
+.row {
+  margin: 0;
+}
+
+.container {
+  padding: 70px 0;
+}
+
+.main-title {
+  color: #444;
+  margin: 0 0 65px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+#logo {
+  width: 75px;
+  height: 75px;
+}
+
+.service-box {
+  text-align: center;
+  margin-bottom: 50px;
+}
+

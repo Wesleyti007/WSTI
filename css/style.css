@@ -3,17 +3,13 @@ body {
 }
 
 p, li {
-  color: #444;
+  color: white;
   font-size: 14px;
 }
 
-p {
-  text-align: left;
-}
-
 .navbar {
- background-color: #D3D3D3;
- color: black;
+ background: transparent;
+ color: white;
  padding: 30px;
 }
 
@@ -47,6 +43,11 @@ p {
   text-align: center;
 }
 
+#texto {
+  color: #444;
+  font-size: 14px;
+}
+
 #mainSlider .carousel-inner, #mainSlider .carousel-item {
   height: 90vh;
 }
@@ -69,8 +70,10 @@ p {
 }
 
 #empresa {
-  background-color: teal;
-  color: white;
+  background-color: white;
+  color: #444;
+  font-size: 16px;
+  padding: 100px;
 }
 
 #logo {
@@ -78,7 +81,3 @@ p {
   height: 75px;
 }
 
-#contato {
-  background-color: teal;
-  color: white;
-}

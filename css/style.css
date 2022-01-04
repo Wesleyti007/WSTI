@@ -1,16 +1,10 @@
 body {
-    font:20px arial, sans-serif
+  font: 20px arial, sans-serif
 }
 
 p, li {
   color: white;
   font-size: 14px;
-}
-
-.navbar {
- background: transparent;
- color: white;
- padding: 30px;
 }
 
 .margin {
@@ -21,6 +15,7 @@ p, li {
 .bg-footer {
   background-color: #235659;
   color: white;
+  padding: 0px 0 0;
 }
 
 .row {
@@ -31,12 +26,27 @@ p, li {
   padding: 70px 0;
 }
 
+.container-footer {
+  padding: 0px 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
 .servico {
   text-align: center;
   margin-bottom: 50px;
 }
 
 .titulo {
+  color: #444;
+  margin: 0 0 0px 0;
+  font-size: 40px;
+  text-align: center;
+}
+
+.titulo-space {
   color: #444;
   margin: 0 0 65px 0;
   font-size: 40px;
@@ -53,7 +63,7 @@ p, li {
 }
 
 #mainSlider .carousel-caption {
-  top: 30%;
+  top: 15%;
 }
 
 #mainSlider .carousel-caption h2 {
@@ -69,15 +79,40 @@ p, li {
   color: #FFF;
 }
 
+#nav-container {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 #empresa {
-  background-color: white;
+  background-color: #C0C0C0;
   color: #444;
   font-size: 16px;
   padding: 100px;
+}
+
+#contato {
+  background-color: #66CDAA;
+  color: #444;
+  font-size: 16px;
+  padding: 100px;
+}
+
+#servicos {
+  background-color: #D3D3D3;
+  color: #444;
+  font-size: 16px;
+  padding: 100px;
+}
+
+#home {
+  background-color: #C0C0C0;
+  color: #444;
+  font-size: 16px;
+  padding: 100px 0 0;
 }
 
 #logo {
   width: 75px;
   height: 75px;
 }
-

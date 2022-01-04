@@ -16,7 +16,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
     crossorigin="anonymous"></script>
@@ -25,199 +25,204 @@
     crossorigin="anonymous"></script>
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+ <!--  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script> -->
 
   <script src="https://kit.fontawesome.com/bf7e05c402.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg fixed-top navbar-light ">
-    <a class="navbar-brand" href="#">
-      <img src="Imagens/logo/logo.png" width="80" height="80">WSTI Solutions
-    </a>
-    <div class="collapse navbar-collapse">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#empresa">Somos</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#servicos">Serviços</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contato">Contato</a>
-        </li>
-      </ul>
-    </div>
-
-    
-  </nav>
-
-  <section id="home">
-
-    <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#home">
+          <img src="Imagens/logo/logo.png" width="80" height="80">WSTI Solutions</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#empresa">Somos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#servicos">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contato">Contato</a>
+            </li>
+        </div>
       </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div id="mainSlider" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#mainSlider" data-bs-slide-to="2"></button>
+        </div>
+
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="Imagens/banner1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h2>Quer criar um e-commerce?</h5>
+                <p>Conte conosco, utlizamos as tecnologias mais atuais do mercado.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/banner2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h2>Está querendo tirar o projeto do papel?</h5>
+                <p>Nossa equipe de analistas e desenvolvedores estão prontos para lhe atender.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="Imagens/banner3.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-md-block">
+              <h2>Está buscando manutenção no seu software?</h5>
+                <p>A WSTI conta com profissionais altamente qualificados para resolver seu problema.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev " type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next " type="button" data-bs-target="#mainSlider" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="empresa">
       <div class="container">
         <div class="row">
-
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="Imagens/banner3.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-md-block">
-                <h2>Quer criar um e-commerce?</h5>
-                  <p>Conte conosco, usamos a melhores tecnologias.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="Imagens/banner1.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-md-block">
-                <h2>Está querendo tirar o projeto do papel?</h5>
-                  <p>Nossa equipe de analistas e desenvolvedores estão prontos para lhe atender.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="Imagens/banner2.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption d-md-block">
-                <h2>Está buscando manutenção no seu software?</h5>
-                  <p>A hDC conta com profissionais altamente qualificados para resolver seu problema.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- 
-        <button class="carousel-control-prev container-fluid" type="button" data-bs-target="#mainSlider" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next container-fluid" type="button" data-bs-target="#mainSlider" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-
-      -->
-      
-    </div>
-
-  </section>
-
-  <section id="empresa">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="titulo">A Empresa</h3>
-        </div>
-        <div class="col-md-6 ">
-          <img class="img-fluid" src="Imagens/logo/WSTI_Soluções-t.png" alt="...">
-        </div>
-        <div class="col-md-6 ">
-          <p id="empresa">
-            Somos especialistas na implementação de soluções de alta qualidade e tecnologia
-            em gestão empresarial, proporcionando diferencial competitivo para nossos clientes por meio do gerenciamento
-            integrado e de acordo com as necessidades de cada organização..
-          
-            Nosso foco é ajudar outras empresas a obter maior agilidade e garantir que seus recursos de tecnologia estejam 
-            totalmente alinhados com sua estratégia de negócios principal.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="servicos">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="titulo">Nossas especialidades</h3>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fas fa-mobile-alt"></i>
-          <h4>Aplicativos Nativos</h4>
-          <p id="texto">Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fas fa-shopping-cart"></i>
-          <h4>E-commerces</h4>
-          <p id="texto">Temos uma plataforma própria de e-commerce que se adapta a qualquer regra de negócio (B2C e B2B).</p>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fas fa-paint-brush"></i>
-          <h4>Design Criativo</h4>
-          <p id="texto">Nossos designers são especializados em UI/UX e também possuem vasta experiência no mercado de software.</p>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fab fa-google"></i>
-          <h4>Experts em SEO</h4>
-          <p id="texto">Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais.</p>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fas fa-hands-helping"></i>
-          <h4>Suporte 24/7</h4>
-          <p id="texto">Você sempre terá alguem da equipe disponível para suporte, em diferentes plataformas. (chat, email, skype)
-          </p>
-        </div>
-        <div class="col-md-4 servico">
-          <i class="fas fa-server"></i>
-          <h4>Experiência em servidores</h4>
-          <p id="texto">Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="contato">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h3 class="titulo">Entre em contato</h3>
-        </div>
-
-        <form class="row g-3" action="index.php#formulario" method="post" role="form" data-toggle="validator">
-          <div class="col-md-4">
-            <label for="name" class="form-label">Nome</label>
-            <input type="text" class="form-control" id="name">
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="col-md-4">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-            <div class="help-block with-errors"></div>
-          </div>
-
-          <div class="col-md-4">
-            <label for="assunto" class="form-label">Assunto</label>
-            <select type="text" id="assunto" class="form-select">
-              <option selected>Opções...</option>
-              <option>Orçamento Desenvolvimento</option>
-              <option>Projeto WEB</option>
-              <option>Manutenção</option>
-            </select>
-            <div class="help-block with-errors"></div>
-          </div>
-          <div class="col-md-12">
-            <label for="mensagem" class="form-label">Mensagem</label>
-            <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message"></textarea>
-            <div class="help-block with-errors"></div>
-          </div>
           <div class="col-12">
-            <button class="btn btn-primary" type="submit">Enviar</button>
+            <h3 class="titulo">A Empresa</h3>
+          </div>
+          <div class="col-md-6 ">
+            <img class="img-fluid" src="Imagens/logo/WSTI_Soluções-t.png" alt="...">
+          </div>
+          <div class="col-md-6 ">
+            <p id="empresa">
+              Somos especialistas na implementação de soluções de alta qualidade e tecnologia
+              em gestão empresarial, proporcionando diferencial competitivo para nossos clientes por meio do
+              gerenciamento
+              integrado e de acordo com as necessidades de cada organização..
+
+              Nosso foco é ajudar outras empresas a obter maior agilidade e garantir que seus recursos de tecnologia
+              estejam
+              totalmente alinhados com sua estratégia de negócios principal.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="titulo-space">Nossas especialidades</h3>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fas fa-mobile-alt"></i>
+            <h4>Aplicativos Nativos</h4>
+            <p id="texto">Utilizamos o real poder dos dispositivos móveis construindo aplicativos nativos.</p>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fas fa-shopping-cart"></i>
+            <h4>E-commerces</h4>
+            <p id="texto">Temos uma plataforma própria de e-commerce que se adapta a qualquer regra de negócio (B2C e
+              B2B).</p>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fas fa-paint-brush"></i>
+            <h4>Design Criativo</h4>
+            <p id="texto">Nossos designers são especializados em UI/UX e também possuem vasta experiência no mercado de
+              software.</p>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fab fa-google"></i>
+            <h4>Experts em SEO</h4>
+            <p id="texto">Com nosso serviço de marketing seu site será melhor posicionado no Google e venderá mais.</p>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fas fa-hands-helping"></i>
+            <h4>Suporte 24/7</h4>
+            <p id="texto">Você sempre terá alguem da equipe disponível para suporte, em diferentes plataformas. (chat,
+              email, skype)
+            </p>
+          </div>
+          <div class="col-md-4 servico">
+            <i class="fas fa-server"></i>
+            <h4>Experiência em servidores</h4>
+            <p id="texto">Garantimos uptime e também rápido tempo de resposta do seu site para o seu cliente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="titulo-space">Entre em contato</h3>
           </div>
 
-        </form>
+          <form class="row g-3" id="formulario">
+            <div class="col-md-4">
+              <label for="name" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="name">
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="text" class="form-control" id="inputEmail4">
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="col-md-4">
+              <label for="assunto" class="form-label">Assunto</label>
+              <select type="text" id="assunto" class="form-select">
+                <option selected>Opções...</option>
+                <option>Orçamento Desenvolvimento</option>
+                <option>Projeto WEB</option>
+                <option>Manutenção</option>
+              </select>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="col-md-12">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" rows="3" placeholder="Sua mensagem..." name="message" id="mensagem"></textarea>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit" onclick="pegaValor()" value="enviar">Enviar</button>
+            </div>
+          </form>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer class="container-fluid text-center bg-footer margin">
-    <p>Desenvolvido por Wesley</p>
+  <footer class="text-center bg-footer ">
+    <div class="container-footer">
+      <div class="row">
+        <p>Desenvolvido por <a href="https://github.com/Wesleyti007"> Wesley </a> &copy; 2022</p>
+      </div>
+    </div>    
   </footer>
-
+  <script src="js/scripts.js" ></script>
 </body>
 
 </html>
